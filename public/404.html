@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reiner Joseph Oliveros - Portfolio</title>
+    <script>
+      // SPA redirect for GitHub Pages so /admin or subpaths load properly
+      var path = window.location.pathname;
+      var repo = '/rj-oliveros-portfolio';
+      if (path.includes('/admin')) {
+        window.location.replace(window.location.origin + repo + '/#admin');
+      } else {
+        window.location.replace(window.location.origin + repo + '/');
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
